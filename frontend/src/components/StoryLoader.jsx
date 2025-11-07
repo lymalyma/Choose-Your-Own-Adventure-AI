@@ -5,7 +5,8 @@ import axios from "axios";
 import LoadingStatus from "./LoadingStatus.jsx"; 
 import StoryGame from "./StoryGame.jsx"; 
 
-const API_BASE_URL = "/api"; 
+import {API_BASE_URL} from "../util.js"; 
+
 
 function StoryLoader()  {
     const {id} = useParams(); 
